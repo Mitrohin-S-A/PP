@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Template.master.cs" Inherits="WebApplication.Template" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    <!-- Подключение библиотек -->
+    <link rel="stylesheet" href="Source/Style/Fonts.css"> 
+    <link rel="stylesheet" href="Source/Style/Preloader.css"> 
+    <link rel="stylesheet" href="Source/Style/Search.css"> 
+    <link rel="stylesheet" href="Source/Style/Buttons.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jqu.." type="text/javascript"></script>
+    <script src="Source/Scripts/Preloader.js"></script>
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ContentPlaceHolder ID="body" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <asp:SqlDataSource ID="sdsAuthorization" runat="server"></asp:SqlDataSource>
+
+        <!-- Навигационная панель -->
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a id="Log" class="navbar-brand font-weight-bold" href="#">МПТ</a>
+          <div class="collapse navbar-collapse" id="nav-content"> 
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Заказ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Сотрудники</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Рейтинг</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">О нас</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Панель администратора</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalAuthorization">Вход</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Модальная форма авторизации -->
+        <div class="modal fade" id="exampleModalAuthorization" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Авторизация</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="input-group mb-3">
+                                <i class="fa fa-user ml-auto mt-auto mr-2 mb-auto"></i>
+                                <asp:TextBox ID="tbLogin" runat="server" CssClass="form-control" placeholder="Введите ваш логин"></asp:TextBox>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="input-group">
+                                <i class="fa fa-lock ml-auto mt-auto mr-2 mb-auto"></i>
+                                <asp:TextBox ID="tbPassword" runat="server" TextMode="Password" CssClass="form-control" placeholder="Введите ваш пароль"></asp:TextBox>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-link" data-dismiss="modal" data-toggle="modal" data-target="#exampleModalPasswordRecovery">Забыли пароль?</button>
+                    <asp:Button id="btnAuthorization" runat="server" CssClass="btn btn-secondary" OnClick="btnAuthorization_Click" Text="Вход"/>
+                </div>
+            </div>
+         </div>
+
+        <!-- Модальная форма восстановления пароля -->
+        <div class="modal fade" id="exampleModalPasswordRecovery" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Восстановление пароля</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="input-group mb-3">
+                                <i class="fa fa-mail-reply-all mr-2 ml-2 mt-2 mb-2"></i>
+                                <asp:TextBox ID="tbEmail" runat="server" CssClass="form-control" placeholder="Введите вашу почту"></asp:TextBox>
+                            </div>
+                        </div>
+                    </div>
+                    <asp:Button id="btnPasswordRecovery" runat="server" CssClass="btn btn-secondary" Text="Отправить" OnClick="btnPasswordRecovery_Click"/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Подвал сайта -->
+        <%--<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a id="Log" class="navbar-brand font-weight-bold" href="#" style="font-size: 48px">МПТ</a>
+          <div class="collapse navbar-collapse">
+              <div class="mr-auto">
+                  <label>uuuu</label>
+              </div>
+              <div class="ml-auto">
+                  <script class="ml-2" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa7fe4b8c8b8a35b878dd31eb9f108739aee9b23e30061d121be4cac24d9c9328&amp;width=462&amp;height=294&amp;lang=ru_RU&amp;scroll=true"></script>
+              </div>
+          </div>
+        </nav>--%>
+
+        <!-- Скрипт для Preloader -->
+        <script>
+            window.onload = function () {
+                let preloader = document.getElementById('preloader');
+                preloader.style.display = 'none';
+            };
+        </script>
+
+        <!-- Убираем горизонтальною полосу прокрутки -->
+        <style>
+            html { overflow-x: hidden; }
+        </style>
+    </form>
+</body>
+</html>

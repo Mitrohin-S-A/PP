@@ -1,0 +1,14 @@
+﻿/* Стили для шрифтов */
+#Log {
+    font-family: 'Marck Script', cursive;
+}
+
+.Center-text-grid {
+    text-align:center;
+    vertical-align: central;
+}
+
+.indent-5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

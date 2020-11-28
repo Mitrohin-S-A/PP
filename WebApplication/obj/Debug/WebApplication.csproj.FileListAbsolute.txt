@@ -1,0 +1,80 @@
+C:\Users\10310\source\repos\Project\WebApplication\bin\WebApplication.dll.config
+C:\Users\10310\source\repos\Project\WebApplication\bin\WebApplication.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\WebApplication.pdb
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\csc.exe
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\csc.exe.config
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\csc.rsp
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\csi.exe
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\csi.exe.config
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\csi.rsp
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\System.Buffers.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\System.Memory.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\vbc.exe
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\vbc.exe.config
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\vbc.rsp
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\10310\source\repos\Project\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\10310\source\repos\Project\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\10310\source\repos\Project\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\10310\source\repos\Project\WebApplication\obj\Debug\WebApplication.csprojAssemblyReference.cache
+C:\Users\10310\source\repos\Project\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\10310\source\repos\Project\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Users\10310\source\repos\Project\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\10310\source\repos\Project\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\WebApplication.dll.config
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\WebApplication.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\WebApplication.pdb
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\csc.exe
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\csc.exe.config
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\csc.rsp
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\csi.exe
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\csi.exe.config
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\csi.rsp
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\System.Buffers.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\System.Memory.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\vbc.exe
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\vbc.exe.config
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\vbc.rsp
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\VBCSCompiler.exe
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\obj\Debug\WebApplication.csprojAssemblyReference.cache
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\obj\Debug\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\obj\Debug\WebApplication.csproj.CopyComplete
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\obj\Debug\WebApplication.dll
+C:\Users\10310\OneDrive\Рабочий стол\Project\WebApplication\obj\Debug\WebApplication.pdb
